@@ -1,0 +1,16 @@
+[workspace]
+authors = ["Andrea Guzman <andreaguz@berkeley.edu>"]
+channels = ["conda-forge"]
+name = "MILP"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.11.*"
+ecole = "*"
+pytorch = "*"
+pytorch-geometric = "*"
+numpy = "*"
+jupyter = "*"

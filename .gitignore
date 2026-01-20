@@ -1,1 +1,4 @@
 project_summary.md
+# pixi environments
+.pixi/*
+!.pixi/config.toml

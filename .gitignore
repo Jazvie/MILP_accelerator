@@ -1,4 +1,13 @@
 project_summary.md
-# pixi environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+data/
+exports/
+*.pkl
+*.pt
+.ipynb_checkpoints/
 .pixi/*
 !.pixi/config.toml

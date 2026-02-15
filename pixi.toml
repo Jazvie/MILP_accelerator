@@ -10,6 +10,7 @@ pytorch = "*"
 numpy = "*"
 jupyter = "*"
 tqdm = "*"
+matplotlib = "*"
 pip = "*"
 
 [pypi-dependencies]

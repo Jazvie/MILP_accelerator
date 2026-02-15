@@ -269,7 +269,7 @@ def main():
     os.makedirs(args.output, exist_ok=True)
     
     if os.path.exists(args.model):
-        checkpoint = torch.load(args.model, weights_only=False)
+        checkpoint = torch.load(args.model, weights_only=False, map_location='cpu')
         state_dict = checkpoint['model_state_dict']
         var_dim = state_dict["var_embedding.weight"].shape[1]
         con_dim = state_dict["con_embedding.weight"].shape[1]
